@@ -42,3 +42,19 @@ code:before,
 code:after {
   content: '\`';
 }
+     body{
+       background: #22272e;
+       color: #adbac7;
+       position: relative;
+       min-height: 100vh;
+     }
+     img{
+       width: 100%;
+     }
+     .outer-block{
+       position: absolute;
+       background: rgb(255, 255, 255);
+       padding: 5px;
+       border-radius: 10px;
+       color: black;
+     }
