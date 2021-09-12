@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 
 
 
-class App extends Component {
+class catchMe extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -43,7 +43,7 @@ class App extends Component {
 
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<catchMe />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
